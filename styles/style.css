@@ -28,7 +28,6 @@
 
 .logo_place_header {
   position: absolute;
-  width: 228px;
   height: 32px;
   z-index: 2;
   left: 64px;
@@ -76,7 +75,6 @@
 .header__square-pic {
   position: absolute;
   right: 0;
-  bottom: 64;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -176,7 +174,7 @@
 }
 
 .table__heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -218,7 +216,7 @@
   font-size: 36px;
   font-weight: normal;
   z-index: 2;
-  margin-top: 0 auto;
+  margin: 0;
   text-align: center;
 }
 
@@ -233,6 +231,7 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  z-index: 1;
 }
 
 .feynman__illustration {
@@ -254,7 +253,7 @@
   position: relative;
 }
 
-.section-title_theme_dark {
+.section-title_theme-dark {
   width: 60%;
   margin: 90px 0 20px;
   line-height: 1.15;
@@ -263,7 +262,7 @@
   text-align: center;
 }
 
-.subtitle_theme_dark {
+.section-subtitle_theme-dark {
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -272,7 +271,7 @@
   margin: 0;
 }
 
-.table_theme_dark {
+.table_theme-dark {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 90px;
@@ -283,20 +282,20 @@
   justify-content: space-between;
 }
 
-.table__cell_theme_dark {
+.table_cell_theme-dark {
   width: 200px;
   margin-top: 80px;
   vertical-align: top;
 }
 
-.table__heading_theme_dark {
+.table_heading_theme-dark {
   margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
 
-.table__text_theme_dark {
+.table_text_theme-dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -309,6 +308,7 @@
   right: -210px;
   display: flex;
   position: absolute;
+  z-index: 0;
 }
 
 .footer {
@@ -332,7 +332,7 @@
 
 }
 
-.footer__column_content_copyright {
+.footer_column_content-copyright {
   flex-basis: 711px;
   display: flex;
   position: relative;
@@ -350,13 +350,13 @@
   font-weight: normal;
 }
 
-.footer__column_content_info {
+.footer_column_content-info {
   display: flex;
   flex-direction: column;
   margin-top: 0;
 }
 
-.footer__column_content_social {
+.footer_column_content-social {
   display: flex;
   flex-direction: column;
   margin-top: 0;
