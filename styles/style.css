@@ -272,20 +272,13 @@
 }
 
 .table_theme-dark {
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 90px;
   z-index: 2;
-  width: 1100px;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
 }
 
 .table_cell_theme-dark {
   width: 200px;
   margin-top: 80px;
-  vertical-align: top;
 }
 
 .table_heading_theme-dark {
@@ -318,8 +311,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
-
 }
 
 .footer__columns {
@@ -328,8 +319,6 @@
   margin-top: 60px;
   margin-bottom: 40px;
   justify-content: space-between;
-
-
 }
 
 .footer_column_content-copyright {
@@ -338,8 +327,6 @@
   position: relative;
   flex-direction: column;
   justify-content: space-between;
-
-
 }
 
 .footer__author {
