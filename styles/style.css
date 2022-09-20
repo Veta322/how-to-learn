@@ -157,7 +157,7 @@
   margin: 0;
 }
 
-.table {
+.table{
   width: 1100px;
   margin-left: auto;
   margin-right: auto;
@@ -167,7 +167,7 @@
 }
 
 
-.table__cell {
+.table__cell{
   vertical-align: top;
   width: 250px;
   margin-top: 60px;
@@ -231,7 +231,7 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
-  z-index: 1;
+  z-index: 3;
 }
 
 .feynman__illustration {
@@ -240,7 +240,6 @@
   bottom: 0;
   left: 0;
   position: absolute;
-  z-index: 0;
 }
 
 .kaufman {
@@ -251,18 +250,14 @@
   flex-wrap: wrap;
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
 
-.section-title_theme-dark {
-  width: 60%;
+.section-title_theme_dark{
   margin: 90px 0 20px;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  text-align: center;
 }
 
-.section-subtitle_theme-dark {
+.section-subtitle_theme_dark{
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -270,25 +265,22 @@
   text-align: center;
   margin: 0;
 }
-
-.table_theme-dark {
-  margin-bottom: 90px;
-  z-index: 2;
+.table_theme_dark{
+  margin: 0 auto 90px;
 }
-
-.table_cell_theme-dark {
+.table__cell_theme_dark{
   width: 200px;
   margin-top: 80px;
 }
 
-.table_heading_theme-dark {
+.table__heading_theme_dark{
   margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
 
-.table_text_theme-dark {
+.table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -299,9 +291,11 @@
   width: 877px;
   height: 877px;
   right: -210px;
+  top: 0;
   display: flex;
   position: absolute;
-  z-index: 0;
+  z-index: -1;
+  background-size: cover;  
 }
 
 .footer {
@@ -321,7 +315,7 @@
   justify-content: space-between;
 }
 
-.footer_column_content-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   position: relative;
@@ -337,13 +331,13 @@
   font-weight: normal;
 }
 
-.footer_column_content-info {
+.footer__column_content_info {
   display: flex;
   flex-direction: column;
   margin-top: 0;
 }
 
-.footer_column_content-social {
+.footer__column_content_social {
   display: flex;
   flex-direction: column;
   margin-top: 0;
