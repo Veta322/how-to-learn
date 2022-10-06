@@ -1,5 +1,4 @@
 
-@import url("../../../keyframes/rotation/rotation.css");
 .header__square-pic {
   position: absolute;
   right: 0;
@@ -7,6 +6,6 @@
   width: 568px;
   background-color: #2f80ed;
   top: 64px;
-  animation: rotation 20s linear infinite ;
+  animation: rotation 20s linear infinite;
 
 }

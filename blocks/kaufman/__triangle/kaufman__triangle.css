@@ -1,4 +1,4 @@
-@import url("../../../keyframes/rotation/rotation.css");
+
 .kaufman__triangle {
   background-image: url("../../../images/kaufman-triangle.svg");
   width: 877px;
@@ -8,5 +8,5 @@
   position: absolute;
   z-index: -1;
   background-size: cover;
-  animation: rotation 20s linear infinite ;
+  animation: rotation 20s linear infinite;
 }
